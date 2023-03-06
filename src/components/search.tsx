@@ -19,9 +19,9 @@ if(e.key === "Enter"){
 
   return (
     <div className={SearchContainer.searchContainer}>
-      <h1>⚡Dispərət Techno⚡</h1>
+      <h2>⚡Dispərət Techno⚡</h2>
       
-      <h3>Lista de profissionais</h3>
+      <h2>Lista de profissionais</h2>
       <h3>Acompanhe nossos Projetos</h3>
       <h3>Busque pelo repositório</h3>
             <div className={SearchContainer.inputContainer}>
