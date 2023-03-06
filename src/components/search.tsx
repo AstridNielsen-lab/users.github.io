@@ -22,7 +22,7 @@ if(e.key === "Enter"){
       <h1>⚡Dispərət Techno</h1>
       
       <h2>Lista de profissionais</h2>
-      <h3>Acompanhe nossos Profissionais</h3>
+      <h3>Acompanhe nossos Projetos</h3>
       <h3>Busque pelo repositório</h3>
             <div className={SearchContainer.inputContainer}>
         <input type="text" placeholder='Digite o nome de um usuário' onChange={(e) => setUserName(e.target.value)}
