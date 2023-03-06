@@ -8,21 +8,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
     
+    <style>
+      /* CSS para estilizar e posicionar o vídeo */
+      video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+      }
+      
+      #container div {
+        width: 100%;
+        margin-top: 20px;
+      }
+    </style>
+    
     <title>Disparat Github</title>
   </head>
   <body>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-      <div style="width: 100%;">
-              <div>
-         <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-        </div>
+    <!-- Tag de vídeo com o link do vídeo do Vimeo como a fonte e o atributo "autoplay" para reproduzi-lo automaticamente -->
+    <video autoplay muted loop>
+      <source src="https://player.vimeo.com/external/777147453.sd.mp4?s=0e947d6dc9829f92ff7ba4e4a4ea7e93df6466e4&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+    </video>
+    
+    <div id="container">
+      <div>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
       </div>
-      <div style="margin-top: 20px;">
+      <div>
         <iframe src="https://discord.com/widget?id=1040174936544776202&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
       </div>
     </div>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
