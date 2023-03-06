@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
     <title>Disparat Github</title>
   </head>
   <body>
@@ -20,10 +20,10 @@
       </div>
       
       <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe src="https://player.vimeo.com/video/777147453" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
-      
-      
+        <video poster="https://i.vimeocdn.com/video/1193069366_960x960.jpg" playsinline controls>
+          <source src="https://player.vimeo.com/video/777147453" type="video/mp4">
+        </video>
+      </div>
       
       <div style="margin-top: 20px;">
         <iframe src="https://discord.com/widget?id=1040174936544776202&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
@@ -31,5 +31,9 @@
     </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+    <script>
+      const player = new Plyr('video');
+    </script>
   </body>
 </html>
