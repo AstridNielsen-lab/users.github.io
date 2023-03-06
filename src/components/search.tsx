@@ -19,9 +19,11 @@ if(e.key === "Enter"){
 
   return (
     <div className={SearchContainer.searchContainer}>
-      <h1>github users</h1>
+      <h1>⚡Dispərət Techno</h1>
 
-      <h2>Busque por um usuário</h2>
+      <h2>Lista de profissionais</h2>
+      <h2>Acompanhe a evolução de nossos Profissionais</h2>
+      <h2>Busque pelo repositório do profissional e veja os projetos em que ele esta trabalhando</h2>
       <div className={SearchContainer.inputContainer}>
         <input type="text" placeholder='Digite o nome de um usuário' onChange={(e) => setUserName(e.target.value)}
         onKeyDown={handleKeyDown}
