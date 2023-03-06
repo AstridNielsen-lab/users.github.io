@@ -23,7 +23,7 @@ if(e.key === "Enter"){
       
       <h2>Lista de profissionais</h2>
       <h3>Acompanhe a evolução de nossos Profissionais</h3>
-      <h3>Busque pelo repositório do profissional e veja os projetos em que ele esta trabalhando</h3>
+      <h3>Busque pelo repositório do profissional <br> veja os projetos em que ele esta trabalhando</h3>
       <div className={SearchContainer.inputContainer}>
         <input type="text" placeholder='Digite o nome de um usuário' onChange={(e) => setUserName(e.target.value)}
         onKeyDown={handleKeyDown}
