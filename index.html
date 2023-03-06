@@ -13,26 +13,27 @@
   <body>
     <div style="display: flex; flex-direction: column; align-items: center;">
       <div style="width: 100%;">
-              <div>
-         <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+        <div>
+          <div id="root"></div>
+          <script type="module" src="/src/main.tsx"></script>
         </div>
       </div>
       
       <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 20px;">
-  <iframe src="https://player.vimeo.com/video/777147453" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-</div>
+        <video controls crossorigin playsinline>
+          <source src="https://player.vimeo.com/video/777147453" type="video/mp4" />
+        </video>
       </div>
       
       <div style="margin-top: 20px;">
         <iframe src="https://discord.com/widget?id=1040174936544776202&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
       </div>
     </div>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    
     <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
     <script>
       const player = new Plyr('video');
     </script>
+    
   </body>
 </html>
