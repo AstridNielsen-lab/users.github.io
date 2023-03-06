@@ -20,7 +20,9 @@ if(e.key === "Enter"){
   return (
     <div className={SearchContainer.searchContainer}>
       <h1>⚡Dispərət Techno</h1>
-
+      
+<iframe src="https://discord.com/widget?id=1040174936544776202&theme=dark" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
+      
       <h2>Lista de profissionais</h2>
       <h3>Acompanhe a evolução de nossos Profissionais</h3>
       <h3>Busque pelo repositório do profissional e veja os projetos em que ele esta trabalhando</h3>
